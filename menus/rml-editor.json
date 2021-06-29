@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rml-editor",
+        "command": "rml-editor:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rml-editor",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rml-editor:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
