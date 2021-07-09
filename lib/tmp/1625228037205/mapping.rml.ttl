@@ -1,0 +1,6 @@
+_:n3-15 <http://www.w3.org/ns/r2rml#template> "http://example.com/{Name}".
+<http://example.com/base/TriplesMap1> <http://www.w3.org/ns/r2rml#subjectMap> _:n3-15;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> _:n3-16.
+_:n3-16 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/ns/r2rml#objectMap> _:n3-17.
+_:n3-17 <http://semweb.mmlab.be/ns/rml#reference> "Name".

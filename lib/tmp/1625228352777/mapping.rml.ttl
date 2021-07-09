@@ -1,0 +1,10 @@
+<http://example.com/base/TriplesMap1> a <http://www.w3.org/ns/r2rml#TriplesMap>;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> _:n3-4;
+    <http://www.w3.org/ns/r2rml#subjectMap> _:n3-5;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> _:n3-6.
+_:n3-4 <http://semweb.mmlab.be/ns/rml#source> "/home/beavis/repositories/rml-editor/lib/tmp/1625228352777/data-student.csv";
+    <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV>.
+_:n3-5 <http://www.w3.org/ns/r2rml#template> "http://example.com/{Name}".
+_:n3-6 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name>;
+    <http://www.w3.org/ns/r2rml#objectMap> _:n3-7.
+_:n3-7 <http://semweb.mmlab.be/ns/rml#reference> "Name".

@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "rml-editor:toggle"
+    "ctrl-alt-o": "rml-editor:toggle",
+    "ctrl-shift-o": "rml-editor:map"
   }
 }

@@ -1,0 +1,12 @@
+14:13:57.848 [main] ERROR be.ugent.rml.cli.Main               .main(222) - Failed to make mapping file conformant to RML spec.
+java.lang.Exception: Mapping requires at least one TriplesMap
+	at be.ugent.rml.conformer.MappingConformer.detect(MappingConformer.java:80)
+	at be.ugent.rml.conformer.MappingConformer.conform(MappingConformer.java:55)
+	at be.ugent.rml.cli.Main.main(Main.java:216)
+	at be.ugent.rml.cli.Main.main(Main.java:40)
+Exception in thread "main" java.lang.Error: No Triples Maps found. The mapping document you should at least have one Triples Map.
+	at be.ugent.rml.Initializer.getAllTriplesMaps(Initializer.java:57)
+	at be.ugent.rml.Initializer.<init>(Initializer.java:23)
+	at be.ugent.rml.Executor.<init>(Executor.java:51)
+	at be.ugent.rml.cli.Main.main(Main.java:297)
+	at be.ugent.rml.cli.Main.main(Main.java:40)

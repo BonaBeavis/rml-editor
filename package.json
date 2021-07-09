@@ -3,10 +3,9 @@
   "main": "./lib/rml-editor",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "rml-editor:toggle"
+    "atom-workspace": "rml-editor:map"
   },
   "repository": "https://github.com/atom/rml-editor",
   "license": "MIT",
@@ -14,5 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "@rmlio/rmlmapper-java-wrapper": "^2.0.0"
   }
 }

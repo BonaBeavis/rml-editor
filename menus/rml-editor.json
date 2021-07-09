@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "rml-editor:toggle"
+            },
+            {
+              "label": "Map",
+              "command": "rml-editor:map"
             }
           ]
         }
