@@ -2,17 +2,14 @@
   "name": "rml-editor",
   "main": "./lib/rml-editor",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Java RMLMapper integration for Atom",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "rml-editor:map"
   },
-  "repository": "https://github.com/atom/rml-editor",
+  "repository": "https://github.com/BonaBeavis/rml-editor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "@rmlio/rmlmapper-java-wrapper": "^2.0.0"
   }
 }
