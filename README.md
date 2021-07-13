@@ -12,6 +12,10 @@
 apm install rml-editor
 ```
 
+### Usage
+
+Press `ctrl` + `shift` + `o` with a mapping file open.
+
 ### Contributing
 
 ```sh
