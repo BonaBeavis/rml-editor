@@ -1,7 +1,7 @@
 {
   "name": "rml-editor",
   "main": "./lib/rml-editor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Java RMLMapper integration for Atom",
   "keywords": [],
   "activationCommands": {
