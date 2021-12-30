@@ -17,6 +17,10 @@
             {
               "label": "Map",
               "command": "rml-editor:map"
+            },
+            {
+              "label": "Ontology",
+              "command": "rml-editor:ontology"
             }
           ]
         }
