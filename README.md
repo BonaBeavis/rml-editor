@@ -5,20 +5,16 @@
 ### Prerequisites
 
 - Java
+- Docker: for creating an ontology with [ontoflow](https://gitlab.com/kupferdigital/ontoflow)
+    - make sure that docker has sudo privileges. If not, nextflow will fail
+    - add `$USER` to the `docker` group
+    - `sudo chmod 666 /var/run/docker.sock`
 
 ### Installation
 
 ```sh
 apm install rml-editor
 ```
-
-For creating an ontology with [ontoflow](https://gitlab.com/kupferdigital/ontoflow) you need:
-- [docker](https://docs.docker.com/)
-    - make sure that docker has sudo privileges. If not, nextflow will fail
-    - For linux:
-        - add `$USER` to the `docker` group
-        - `sudo chmod 666 /var/run/docker.sock`
-- Java: `sudo apt install openjdk-11-jre-headless`
 
 ### Usage
 
