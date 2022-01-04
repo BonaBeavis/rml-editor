@@ -5,7 +5,7 @@
 ### Prerequisites
 
 - Java
-- Docker: for creating an ontology with [ontoflow](https://gitlab.com/kupferdigital/ontoflow)
+- Docker: for running [nextflow](https://www.nextflow.io/)
     - make sure that docker has sudo privileges. If not, nextflow will fail
     - add `$USER` to the `docker` group
     - `sudo chmod 666 /var/run/docker.sock`
@@ -18,8 +18,17 @@ apm install rml-editor
 
 ### Usage
 
+#### `RMLMapper`
+
 Press `ctrl` + `shift` + `o` with a mapping file open.
-Press `ctrl` + `shift` + `n` with any input file open for creating an ontology.
+
+#### `Nextflow`
+
+Press `ctrl` + `shift` + `n` for creating an ontology with nextflow. Therefore open your project folder and clear your pane to start safely.
+
+Filenames:
+- for mapping file: `mapping.ttl`
+- config file for defining the input files path: `config.json`
 
 ### Contributing
 
