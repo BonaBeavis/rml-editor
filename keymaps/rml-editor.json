@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-shift-o": "rml-editor:map"
+    "ctrl-shift-o": "rml-editor:map",
+    "ctrl-shift-n": "rml-editor:ontology"
   }
 }

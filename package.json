@@ -3,10 +3,10 @@
   "main": "./lib/rml-editor",
   "version": "0.0.0",
   "description": "Java RMLMapper integration for Atom",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "rml-editor:map"
-  },
+  "keywords": [
+    "rmlmapper",
+    "nextflow"
+  ],
   "repository": "https://github.com/BonaBeavis/rml-editor",
   "license": "MIT",
   "engines": {

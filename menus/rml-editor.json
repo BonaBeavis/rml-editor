@@ -17,6 +17,10 @@
             {
               "label": "Map",
               "command": "rml-editor:map"
+            },
+            {
+              "label": "Nextflow",
+              "command": "rml-editor:ontology"
             }
           ]
         }
